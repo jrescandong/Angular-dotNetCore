@@ -1,7 +1,7 @@
 // Entry point for HTTPS certificate setup
 // This script orchestrates the certificate setup process
-const certificateConfig = require('./config/certificate.config');
-const certificateService = require('./services/certificate.service');
+const certificateConfig = require('./certificate/config/certificate.config');
+const certificateService = require('./certificate/services/certificate.service');
 
 async function setupHttpsCertificate() {
   try {

@@ -3,9 +3,9 @@ import { AppService } from "./services/app-service";
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.html',
+  templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.css'
+  styleUrls: ['./app.component.css']
 })
 export class App implements OnInit {
   public forecasts: WeatherForecast[] = [];
