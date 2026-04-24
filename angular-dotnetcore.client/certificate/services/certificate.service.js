@@ -1,7 +1,6 @@
 // Certificate service - handles certificate operations
 const fs = require('fs');
 const { spawn } = require('child_process');
-const path = require('path');
 
 class CertificateService {
   ensureDirectoryExists(dirPath) {
