@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="angular-dotnetcore.client/angular-dotnetcore.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Angular-dotNetCore.Server/Angular-dotNetCore.Server.csproj" />
+</Solution>
